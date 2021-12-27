@@ -1,40 +1,47 @@
-AlertOps Expert Guidance
+The True Cost of Downtime
 ========
 
  
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+Downtime is a serious problem (regardless of size or industry).  A recent survey conducted by Information Technology Intelligence Consulting (ITIC), found that for 98 percent of organizations, a single hour of downtime costs more than $100,000. 60 percent noted that one hour of downtime costs more than $300,000. And, 33 percent stated one hour of downtime costs between $1 million and $5 million.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+And the costs keep rising… 
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+ITIC also found that the average cost of a single hour of unplanned downtime has increased from 25 percent in 2008 to 30 percent last year. So, if you’re in the $5 million range, that’s close to a $250,000 increase for just 1 hour of downtime. If organizations lack the necessary people, processes, and tools, then the average cost of one hour of downtime will most certainly continue to increase in the years to come. Let’s not forget about the immediate and long-lasting ramifications of downtime, either. Downtime may cause a variety of problems, including:
 
-Automate Processes
+    Business Disruption: A network or server outage or similar IT problems can disrupt employee productivity and force a company’s day-to-day operations to slow down or come to a halt.
+
+    Brand Reputation Damage: Even a system shutdown that lasts only a few minutes may cause customers to lose faith in a company.
+
+    Data Loss: If a critical application failure leads to a system outage, data loss may occur that can cause legal and financial headaches for a business.
+
+    Lost Revenue: If a data center outage occurs, telecommunications services providers, ecommerce businesses and other companies that rely on data centers to provide IT and networking support may suffer revenue losses.
+
+To combat outages, organizations first must address the root causes of downtime.
+
+Key Causes of Downtime
 ====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+Luke Stone, Google’s director of customer reliability engineering, outlined some of the leading causes of downtime during a breakout session at the 2017 Google Cloud Next conference.According to Stone, the primary causes of downtime include:
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+    Overload: When service demand exceeds capacity, errors may occur, causing network, server or system overload.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+    Noisy Neighbor: If users overload a server with spam, they may create excess “noise” that leads to downtime.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+    Retry Spikes: If users are unable to access a service and repeatedly try to gain access, retry spikes may cause a service to shut down.
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+    Bad Dependency: If an application’s input and output stop communicating with one another, user requests may accumulate quickly and overload backend systems.
 
-1 Red Canary 2021 Threat Detection Report
+    Scaling Boundaries: An organization that tries to serve additional client requests may encounter problems if its backend systems lack the proper capacity boundaries.
+
+When it comes to IT outages, it is important for organizations to do everything possible to prevent them from happening. Thanks to AlertOps, organizations can minimize the potential costs and impact of downtime like never before.
+
+AlertOps helps teams manage downtime before it gets out of hand. Our incident management and alert escalation software offers multi-channel notifications, ensuring team members can receive IT incident notifications via email, phone, SMS and other communication methods for fast, efficient response.
+
+Plus, AlertOps empowers users with automatic escalations, making it easy to set up escalation groups and workflows to notify key stakeholders about IT incidents. With AlertOps, your organization can improve incident response and reduce downtime simultaneously.
+
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/downtime-costs/
 
 Read more:
 ====
